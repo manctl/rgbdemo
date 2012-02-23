@@ -41,7 +41,7 @@ IF (UNIX AND NOT APPLE AND NOT DEFINED NESTK_USE_PCL)
   SET(NESTK_USE_PCL 1)
 ENDIF()
 
-ADD_SUBDIRECTORY(nestk)
+ADD_SUBDIRECTORY(rgbd)
 ## nestk/UseNestk.cmake.in defines variable to use nestk.
 ## It itself includes nestk/deps/cmake/UseEmbeddedNestkDeps.cmake that
 ## contains most of the cmake find packages commands.
